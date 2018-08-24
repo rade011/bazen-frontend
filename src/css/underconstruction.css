@@ -1,0 +1,286 @@
+html,
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #272727;
+  color: #fff; }
+
+.wrapper {
+  margin: 0 auto; }
+
+.navbar {
+  background: #1D1D1D;
+  padding: 2.5rem 4.2rem; }
+  .navbar__bazen-brand {
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-right: auto;
+    color: #fff !important; }
+  .navbar__item--gray a {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 100; }
+
+.bazen-cover__content {
+  padding-top: 9.3rem; }
+
+.bazen-cover__content p {
+  color: #7C7C7C;
+  font-size: 1.2rem;
+  padding-bottom: 2.5rem;
+  line-height: 1.5rem; }
+
+.bazen-cover__title {
+  font-size: 6rem;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: -1px;
+  line-height: 94px;
+  margin: 0; }
+
+.footer__top-column {
+  padding-bottom: 195px; }
+
+.footer__content p {
+  color: #9E9E9E;
+  font-family: "Nunito Sans";
+  font-size: .8rem;
+  line-height: 20px; }
+
+.footer__content .social {
+  display: flex; }
+  .footer__content .social a {
+    color: #9E9E9E;
+    margin-right: 1.4rem;
+    font-size: 1.4rem; }
+
+.footer__padding {
+  padding-top: 2rem; }
+
+.footer__ourPurpose {
+  font-size: 1.2rem !important;
+  line-height: 2rem !important;
+  color: #9E9E9E;
+  padding-bottom: 2.35rem;
+  margin-bottom: 0; }
+
+.footer__ourPurpose--text {
+  font-size: 1.2rem !important;
+  line-height: 2rem !important;
+  color: #9E9E9E;
+  margin-bottom: 0; }
+
+.copyright {
+  display: flex;
+  height: 16.5rem;
+  align-items: center;
+  margin-top: 1.2rem; }
+  .copyright p {
+    vertical-align: middle;
+    color: #9E9E9E;
+    font-size: 0.7rem; }
+
+#clockdiv h2 {
+  color: #9E9E9E;
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 100; }
+
+#clockdiv > div {
+  padding: 10px;
+  display: inline-block;
+  vertical-align: center; }
+  #clockdiv > div > span {
+    display: inline-block;
+    background-color: #232323;
+    height: 119px;
+    width: 93px;
+    border-radius: 2px;
+    color: #9E9E9E;
+    font-family: "Nunito Sans";
+    font-size: 60px;
+    line-height: 82px;
+    text-align: center;
+    vertical-align: center;
+    vertical-align: center; }
+
+#clockdiv .smalltext {
+  margin-top: 19px;
+  height: 18px;
+  width: 35px;
+  color: #9E9E9E;
+  font-family: "Nunito Sans";
+  font-size: 13px;
+  letter-spacing: 0.3px;
+  line-height: 18px; }
+
+#nthEverthing:nth-letter(odd),
+#nthEverthing:nth-letter(even) {
+  display: inline-block;
+  text-transform: uppercase;
+  width: 80px;
+  width: 80px; }
+
+#nthEverthing:nth-letter(even) {
+  transform: scale(1) skewY(-15deg); }
+
+.bcTest {
+  background: #9E9E9E; }
+
+.subscribe {
+  height: 50px;
+  background: #1D1D1D;
+  border-radius: 25px;
+  border: none;
+  padding: 0 60px 0 30px;
+  color: #F5F6F8;
+  font-size: 15px; }
+
+.subscribe:focus {
+  outline: none; }
+
+.subscrib-btn {
+  height: 50px;
+  border-radius: 25px;
+  background: #000;
+  padding: 17px 39px 15px 39px;
+  margin-left: -40px;
+  color: #7F7F7F;
+  font-size: 13px;
+  cursor: pointer;
+  border: none; }
+
+.subscrib-btn:hover {
+  color: #fff; }
+
+.sm {
+  display: none; }
+
+.lg {
+  display: block; }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+  .container {
+    padding-right: 20px !important;
+    padding-left: 20px !important; }
+  .navbar {
+    padding: 25px 0; }
+  .lg {
+    display: none; }
+  .sm {
+    display: block; }
+  .bazen-cover {
+    height: auto; }
+    .bazen-cover__content {
+      padding-top: 3rem; }
+    .bazen-cover__content p {
+      color: #7C7C7C;
+      font-family: "Nunito Sans";
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 0.2px;
+      line-height: 18px; }
+    .bazen-cover__title {
+      font-size: 6rem;
+      font-weight: 900;
+      color: #fff;
+      letter-spacing: -1px;
+      line-height: 94px; }
+  .borderDiv {
+    border-right: 1px solid #D8D8D8;
+    height: 89px;
+    opacity: 0.2;
+    margin: 60px 0;
+    width: 50%; }
+  .bazen__subtitle--small {
+    height: 119px;
+    width: 275px;
+    color: #FFFFFF;
+    font-family: "Nunito Sans";
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 36px; }
+  .footer__ourPurpose:nth-child(1) {
+    font-size: 18px !important;
+    line-height: 30px !important;
+    text-align: left; }
+  .footer__ourPurpose:nth-child(2) {
+    font-size: 16px !important;
+    line-height: 36px !important;
+    text-align: left; }
+  .footer__content {
+    text-align: center; }
+  .footer .social {
+    display: flex;
+    justify-content: center; }
+    .footer .social a {
+      margin-right: 0;
+      padding: 0 1rem; }
+  .copyright p {
+    text-align: center; }
+  .subscribe {
+    height: 50px;
+    background: #1D1D1D;
+    border-radius: 25px;
+    border: none;
+    padding: 0 0 0 20px;
+    color: #F5F6F8;
+    font-size: 13px;
+    width: 100%; }
+  .subscribe:focus {
+    outline: none; }
+  .subscrib-btn {
+    height: 50px;
+    border-radius: 25px;
+    background: #000;
+    padding: 17px 22px 15px 22px;
+    margin-left: -102px;
+    color: #7F7F7F;
+    font-size: 13px;
+    cursor: pointer;
+    border: none; }
+  .subscrib-btn:hover {
+    color: #fff; } }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+  .navbar {
+    padding: 2.5rem 2.8rem; }
+  .bazen-cover__title {
+    font-size: 3.8rem; }
+  .footer__ourPurpose:nth-child(1) {
+    font-size: 18px !important;
+    line-height: 30px !important;
+    text-align: left; }
+  .footer__ourPurpose:nth-child(2) {
+    font-size: 20px !important;
+    line-height: 36px !important;
+    text-align: left; }
+  .subscribe {
+    height: 50px;
+    background: #1D1D1D;
+    border-radius: 25px;
+    border: none;
+    padding: 0 0 0 20px;
+    color: #F5F6F8;
+    font-size: 13px;
+    width: 100%; }
+  .subscribe:focus {
+    outline: none; }
+  .subscrib-btn {
+    height: 50px;
+    border-radius: 25px;
+    background: #000;
+    padding: 17px 22px 15px 22px;
+    margin-left: -102px;
+    color: #7F7F7F;
+    font-size: 13px;
+    cursor: pointer;
+    border: none; }
+  .subscrib-btn:hover {
+    color: #fff; } }
+
+.time-left {
+  padding: 9.3rem 0 0 0; }

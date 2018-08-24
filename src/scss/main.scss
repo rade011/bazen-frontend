@@ -1,0 +1,151 @@
+html,
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #2E2E30;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.navbar {
+    background: transparent;
+    padding: 0 4.5rem;
+
+    &__bazen-brand {
+        font-size: 1.8rem;
+        font-weight: 900;
+        margin-right: auto;
+        color: #000;
+    }
+
+    &__item--gray a {
+        color: #2E2E30;
+        font-size: 1rem;
+    }
+}
+
+.bazen-cover {
+
+    &__title {
+        font-size: 5.3rem;
+        font-weight: bolder;
+        margin-top: 453px;
+        color: #2E2E30;
+        letter-spacing: -1px;
+        line-height: 94px;
+    }
+}
+
+.our-goal {
+    margin-top: 6rem;
+
+    &__agency {
+        margin: 0;
+        font-size: 0.8rem;
+    }
+
+    span {
+        margin: 0;
+        font-size: 0.8rem;
+    }
+
+    &__email {
+        font-size: 0.8rem;
+        font-family: "PT Serif Caption";
+        line-height: 0.8rem;
+        margin-top: 0.8rem;
+    }
+
+    &__text {
+        font-family: "PT Serif Caption";
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        padding: 0 6rem;
+    }
+}
+
+.masonry {
+    margin-top: 9.5rem;
+}
+
+.masonry-grid {
+    &__item--1 .img{
+        background-color: #60CEEE;
+        height: 40.5rem;
+    }
+
+    &__item--1 .title{
+        height: 16.1rem;
+        text-align: center;
+        padding-top: 2rem;
+        color: #999999
+    }
+
+    &__item--2 .img{
+        background-color: #C6E2E9;
+        height: 20rem;
+    }
+
+    &__item--2 .title{
+        height: 16.1rem;
+        text-align: center;
+        padding-top: 2rem;
+        color: #999999
+    }
+
+    &__item--3 .img{
+        background-color: #FF994E;
+        height: 40.5rem;
+    }
+
+    &__item--3 .title{
+        height: 16.1rem;
+        text-align: center;
+        padding-top: 2rem;
+        color: #999999
+    }
+
+    &__item--4 .img{
+        background-color: #D0E6FC;
+        height: 20rem;
+    }
+
+    &__item--4 .title{
+        height: 16.1rem;
+        text-align: center;
+        padding-top: 2rem;
+        color: #999999
+    }
+}
+
+.masonry .masonry-grid h5 {
+    color: #2E2E30;
+}
+
+.footer {
+    height: 33.5rem;
+    background-color: #F5F6F8;
+    text-align: center;
+
+    &__content {
+
+        h1 {
+            text-align: center;
+            font-family: "PT Serif Caption";
+            font-size: 3rem;
+            line-height: 61px;
+            color: #151515;
+        }
+
+        p {
+            text-align: center;
+            color: #999999;
+            font-family: "Nunito Sans";
+            font-size: 15px;
+            line-height: 20px;
+        }
+    }
+
+}
